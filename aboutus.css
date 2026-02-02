@@ -550,6 +550,10 @@ nav{
     }
     .menu{
         display: flex;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        padding:  20px;
     }
     nav{
         padding: 15px 20px;
