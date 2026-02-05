@@ -634,7 +634,7 @@ nav{
         width: 100%;
     }
     .button-solid{
-        padding: 12px 220px;
+        padding: 12px 20px;
     }
     .footer{
         margin: 30px 20px;
@@ -660,6 +660,12 @@ nav{
     .condition{
         flex-direction: column;
         align-items: center;
+    }
+    .part2{
+        gap: 50px;
+    }
+    .hero-right img{
+        width: 100%;
     }
 
 }
