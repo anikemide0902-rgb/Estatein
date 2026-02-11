@@ -1,0 +1,486 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:white;
+     font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color:  #141414;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s ease;
+}
+a:hover{
+    opacity: .7;
+}
+
+/* header */
+
+header{
+    background: url('/Assets/abstract.png'), linear-gradient(to top, rgba(0, 0, 0, 0.756), rgba(0, 0, 0, 0.739));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+.header-cancel{
+    position: absolute;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.126);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.header-cancel:hover{
+    background: rgba(255, 255, 255, 0.226);
+}
+
+/* nav bar */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    border-top: 1px solid rgba(128, 128, 128, 0.507);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.507);
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.active-navlink{
+     background: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  
+}
+ .button-outline{
+    background: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 200px;
+}
+.menu {
+    display: none;
+}
+.button-solid{
+    color: white;
+    background: #703BF7;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 230px;
+}
+.button-solid:hover{
+    background: white;
+    color:#703BF7 ;
+}
+.button-outline:hover{
+    background: gray;
+    color: black;
+} 
+ .hero-section{
+    background: linear-gradient(to right,#222222,black,black,black,black);
+    padding: 90px 100px;
+    border: 1px solid #262626;
+ }
+ .text-para{
+    margin-top: 20px;
+    color: #999999;
+ }
+ .feature{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+   
+}
+.feature-card{
+    background-color: rgba(128, 128, 128, 0.145);
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    text-align: start;
+    flex: 1;
+    height: 160px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    font-size: .8rem;
+}
+.top-arrow{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.star{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.unlock-section{
+margin-top: 15px;
+margin-left: 48px;
+}
+.text{
+    width: 70%;
+    color: #999999;
+    margin-top: 10px;
+}
+.overall-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+.over-card{
+   width: 30%;
+   margin-top: 60px;
+   margin-left: 30px;
+   padding: 14px 20px;
+   border: 1px solid #262626;   
+}
+.over-text{
+    
+    margin-top: 30px;
+    color: #999999;
+}
+.all-content{
+    display: flex;
+    justify-content: center;
+}
+.two-cont{
+   display: flex;
+   gap: 30px;
+}
+.over-car{
+   width: 30%;
+   margin-top: 30px;
+   margin-left: 55px;
+   padding: 14px 20px;
+   border: 1px solid #262626;     
+}
+.effort-section-parent{
+    
+    margin-top: 30px;
+    border: 1px solid #262626;
+     background: url('/Assets/Abstract\ Design\ \(3\).png');
+    width:62%;
+    padding: 20px 60px;
+    
+}
+.effort-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.effort-text{
+    margin-top: 30px;
+}
+.learn-button{
+    background-color: #141414;
+    color: #FFFFFF;
+    width: 139px;
+    height: 60px;
+    margin-top: 18px;
+    border: 1px solid  #262626;
+    border-radius: 10px
+}
+.effort-para{
+    color: #999999;
+}
+.smart-section{
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 48px;
+}
+.text1{
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.overall-smart{
+     width: 30%;
+   padding: 14px 20px;
+   border: 1px solid #262626;
+   background-color: #141414; 
+}
+.new-overall-smart{
+    width: 50%;
+}
+.first-two{
+    display: flex;
+    gap: 10px;
+}
+.second-two{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.all-together{
+    background-color: #1A1A1A;
+    width: 65%;
+    border: 10px solid  #1A1A1A;
+    border-radius: 10px;
+}
+.section-together{
+    display: flex;
+    gap: 5%;
+    padding-right: 40px;
+}
+.invest-section{
+    margin-top: 20px;
+    padding: 15px 50px;
+    background: url(Assets/Abstract\ Design\ \(4\).png);
+    border-radius: 8px;
+    background-color: #262626;    
+}
+.invest-para{
+    margin-top: 15px;
+    color: #999999;
+
+}
+.invest-button{
+    background-color: #141414;
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px 8px;
+    border: 1px solid#262626;
+    border-radius: 8px;
+}
+.tex-her{
+    
+    font-size: 40px;
+    font-weight: 600px;
+ }
+.tex-her-p{
+    color: #999999;
+    margin-top: 10px;
+
+    flex: 4;
+}
+.overall-text{
+    background-color: #1d1c1c;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+.over-tex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.email-logo{
+    width: 24px;
+    height: 24px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input input, .input button{
+    background: transparent;
+    border: none;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px #262626;
+    padding: 14px;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    margin:100px 50px;
+    justify-content: space-between;
+
+}
+.homes p{
+    color:#999999;
+    margin-bottom: 20px;
+}
+.input-image{
+    margin-bottom: 10px;
+}
+.Homed{
+    display: flex;
+    gap: 80px;
+}
+.terms{
+    display: flex;
+    background-color: #1A1A1A;
+    padding: 12px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.condition{
+    display: flex;
+    gap: 20px;
+}
+.homes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 18%;
+        right: 0%;
+        padding: 0px 15px;
+    }
+    .nav-ul, .button-outline{
+        display: none;
+    }
+    nav{
+        margin: 20px;
+        padding: 10px 0px;
+    }
+    .head-text{
+        margin-top: 50px;
+    }
+    .over-tex{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section{
+        padding: 20px;
+    }
+    .feature{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+    }
+    .feature-card{
+        width: 50%;
+    }
+    .unlock-section{
+        margin: 20px;
+    }
+    .all-content{
+        flex-direction: column;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    .over-card{
+        width: 90%;
+        margin: 20px;
+    }
+    .two-cont{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .over-car, .effort-section-parent{
+        width: 90%;
+        margin: 20px;
+    }
+    .overall-text{
+        margin: 20px;
+    }
+    .section-together{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .smart-section{
+        margin-left: 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .first-two,.second-two{
+        flex-direction: column;
+    }
+    .all-together{
+        width: 100%;
+    }
+    .new-overall-smart, .smart-section, .invest-button{
+        width: 100%;
+    }
+
+
+    .footer-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .icon{
+        align-items: center;
+        display: flex;
+    }
+    .footer-logo{
+        align-items: flex-start;
+    }
+
+    .footer{
+        margin: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .input, .left,.right, .text input{
+        width: 100%;
+    }
+    .Homed{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .homes{
+    width: 40%;
+    margin-right: 30px;
+    }
+    .terms{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .condition{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tex-her{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .tex-her-p{
+        margin-left: 0px;
+    }
+
+@media  screen and (min-width:641px) {
+    .menu{
+        display: none;
+    }
+}
+}
