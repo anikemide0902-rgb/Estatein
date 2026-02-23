@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:white;
+     font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+a:hover{
+    opacity: .7;
+}
+.all{
+    display: flex;
+    margin: 50px;
+    gap: 60px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    flex: 1;
+}
+.left-side p{
+    color: #9999;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+}
+.button-outline{
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.button-solid{
+    color: white;
+    background-color: #703BF7;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.button-solid:hover{
+    background-color: white;
+    color:#703BF7 ;
+}
+.button-outline:hover{
+    background-color: gray;
+    color: black;
+}
+.right-side p{
+    color: #9999;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.name, .password, .repassword, .email{
+    padding: 20px;
+    width: 100%;
+    background-color: transparent;
+    border-style: none;
+    text-align: start;
+}
+.error{
+    color: rgb(199, 33, 33);
+} 
+.left-side{
+    flex: 1;
+}
